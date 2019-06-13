@@ -5,6 +5,7 @@ RUN apt-get -y update \
         wget \
         xz-utils \
         ca-certificates \
+        zip \
     && rm -rf /var/lib/apt/lists/*
 
 RUN mkdir sfdx
